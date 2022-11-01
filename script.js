@@ -107,6 +107,15 @@ const questions = [
   {
     question: 'How many states are there in Brazil? (including the Federal District)',
     answers: [
+      { text: '27', correct: true },
+      { text: '23', correct: false },
+      { text: '26', correct: false },
+      { text: '20', correct: false }
+    ]
+  },
+  {
+    question: 'What is the population size in Brazil?',
+    answers: [
       { text: '153 million', correct: false },
       { text: '98 million', correct: false },
       { text: '264 million', correct: false },
@@ -141,6 +150,15 @@ const questions = [
     ]
   },
   {
+    question: 'Brazil week long holiday is known as:',
+    answers: [
+      { text: 'Tiradentes', correct: false },
+      { text: 'Feijoada', correct: false },
+      { text: 'Carnaval', correct: true },
+      { text: 'Rock in Rio', correct: false }
+    ]
+  },
+  {
     question: '______ is a worldwide famous brazilian music genre.',
     answers: [
       { text: 'Bossa Nova', correct: true },
@@ -158,7 +176,15 @@ const questions = [
       { text: 'Once a day', correct: true }
     ]
   },
-  
+  {
+    question: "hat colors are in Brazil's flag?",
+    answers: [
+      { text: 'White, Green, Yellow and Black', correct: false },
+      { text: 'White, Yellow, Blue and Black', correct: false },
+      { text: 'Blue, Green, Yellow and Black', correct: false },
+      { text: 'White, Green, Yellow and Blue', correct: true }
+    ]
+  },  
   {
     question: 'How many regions does Brazil have?',
     answers: [
